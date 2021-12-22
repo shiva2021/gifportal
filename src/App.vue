@@ -5,64 +5,41 @@
 			<br/>
 			<Gifs />
 		</div>
-	<nav :class="`navbar is-fixed-bottom has-background-black-light`">
-			<div class="is-flex is-justify-content-center is-flex is-align-content-center">
-					<!-- <div>
-							<p class="has-text-white">
-								built on
-								<a class="has-text-white"
-								:href="TWITTER_LINK"
-								target="_blank"
-								rel="noreferrer"
-							>
-							{{TWITTER_HANDLE}}
-							</a>
-							with ❤️
-							</p>
-							<p class="has-text-white">
-								{{personalMsg}}
-								<a
-									class="has-text-white"
-									:href="contact"
-									target="_blank"
-									rel="noreferrer"
-								>
-									{{clickhere}}
-								</a>
-								{{personalMsg2}}
-							</p>
-					</div> -->
-				<div>
-					<div class='is-flex is-align-content-center is-justify-content-center'>
-							<p class="has-text-white">
-								built on
-								<a class="has-text-white"
-								:href="TWITTER_LINK"
-								target="_blank"
-								rel="noreferrer"
-							>
-							{{TWITTER_HANDLE}}
-							</a>
-							with ❤️
-							</p>
+		<nav :class="`navbar is-fixed-bottom has-background-black-light`">
+				<div class="container is-fullwidth">
+						<div class="is-flex is-justify-content-center is-flex is-align-content-center" style="width:100%">
+							<div class="container">
+								<div class='is-flex is-align-content-center is-justify-content-center'>
+										<p class="has-text-white">
+											built on
+											<a class="has-text-white"
+											:href="TWITTER_LINK"
+											target="_blank"
+											rel="noreferrer"
+										>
+										{{TWITTER_HANDLE}}
+										</a>
+										with ❤️
+										</p>
+								</div>
+								<div class='is-flex is-align-content-center is-justify-content-center'>
+										<p class="has-text-white">
+											{{personalMsg}}
+											<a
+												class="has-text-white"
+												:href="contact"
+												target="_blank"
+												rel="noreferrer"
+											>
+												{{clickhere}}
+											</a>
+											{{personalMsg2}}
+										</p>
+								</div>
+						</div>
 					</div>
-					<div class='is-flex is-align-content-center is-justify-content-center'>
-							<p class="has-text-white">
-								{{personalMsg}}
-								<a
-									class="has-text-white"
-									:href="contact"
-									target="_blank"
-									rel="noreferrer"
-								>
-									{{clickhere}}
-								</a>
-								{{personalMsg2}}
-							</p>
-					</div>
-			</div>
-		</div>
-	</nav>
+				</div>
+		</nav>
 	</div>
 </template>
 <script setup>
